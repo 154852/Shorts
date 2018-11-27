@@ -20,3 +20,6 @@ Server.js sets up a server running locally (port 8080) that will take any reques
 This means that JavaScript, who cannot do this, only has to send a request to your server with the desired text in it (hence the XMLHttpRequest).
 This desired text can be found in the innerText of the parent of the element at the selector `.inputPanel span`. The interval is there to
 ensure that typing starts as early as is possible without starting before the timer allows, it simply checks if the countdown has reached 0.
+
+### Also:
+18 Lines of code!

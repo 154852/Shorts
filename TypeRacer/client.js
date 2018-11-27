@@ -4,7 +4,7 @@ const __interval = setInterval(() => {
             y = new XMLHttpRequest();
             y.open('GET', 'http://localhost:8080/' + document.querySelector('.inputPanel span').parentElement.innerText);
             y.send();
-        }, 550);
+        }, 516);
 
         window.clearInterval(__interval);
     }
